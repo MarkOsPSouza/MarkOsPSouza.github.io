@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'dynamix';
+    src: url('../Fonts/Dynamix.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'cactus';
+    src: url('../Fonts/Cactus-Town.ttf') format('truetype');
+}
+
+
+:root{
+    --branco:#ffffff;
+    --cor0:#F1E3F3;
+    --cor1:#6D74F2;
+    --cor2:#29D998;
+    --cor3:#F2E30F;
+    --cor4:#F24822;
+}
+
+body{
+    background-color: var(--cor0);
+    margin: auto;
+}
+header{
+    text-align: center;
+}
+header h1{
+    font-family: 'dynamix';
+    font-size: 2.5em;
+    color: var(--cor4);
+    margin: 0px 0px -1px 0px;
+}
+header a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    padding: 3px;
+}
+header a:hover{
+    color: var(--cor2);
+}
+main{
+
+}
+
+
+h1{
+    font-family: 'cactus';
+    color: var(--cor1);
+    font-weight:light;
+    font-size: 2em;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+img{
+    margin: auto;
+    margin: auto;
+    width: 50% 0%;
+}
+#img_direita{
+    position: absolute;
+    right: 0;
+}
+nav {
+    text-decoration: underline;
+    text-decoration-color: #6D74F2;
+}
+header nav :hover{
+    text-decoration: none;
+    color: var(--branco);
+    background-color: #6D74F2;
+}
+main nav a{
+    text-decoration-color: var(--cor4);
+    color: var(--cor4)
+}
+main nav a:hover{
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--cor4);
+}
+article h1{
+    margin-bottom: 0px;
+}
